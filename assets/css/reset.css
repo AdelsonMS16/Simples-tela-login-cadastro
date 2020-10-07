@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+:root {
+  --first-color: #12192c;
+  --text-color: #8590ad;
+  --color-secondary: #c32865;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Acme', sans-serif;
+}

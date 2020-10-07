@@ -1,0 +1,90 @@
+.registro {
+  height: 100%;
+  padding: 0 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 600px;
+}
+.form-registro {
+  width: 100%;
+  max-width: 600px;
+  padding: 20px;
+  -webkit-box-shadow: 10px 13px 6px 0px rgba(189, 189, 189, 1);
+  -moz-box-shadow: 10px 13px 6px 0px rgba(189, 189, 189, 1);
+  box-shadow: 10px 13px 6px 0px rgba(189, 189, 189, 1);
+  border-radius: 0.5rem;
+}
+.title-registro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 0.5rem;
+  text-transform: uppercase;
+}
+.title-registro h2 {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.form-registro button {
+  width: 100%;
+  border-radius: 5px;
+  margin-top: 10px;
+  border: none;
+  outline: none;
+  background-color: var(--first-color);
+  padding: 0.8rem;
+  color: #fff;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: 0.5rem;
+  transition: 0.3s all;
+}
+
+.form-registro button:hover {
+  box-shadow: 5px 5px 20px #999;
+  background: var(--color-secondary);
+  color: #fff;
+}
+.form-signin p {
+  display: inline;
+}
+.form-signin p a {
+  display: block;
+  text-align: right;
+  color: var(--text-color);
+  text-decoration: none;
+  margin-top: 15px;
+}
+.form-signin p a:hover {
+  color: var(--color-secondary);
+}
+.form__social {
+  text-align: center;
+  margin-top: 15px;
+}
+.form__social-text {
+  display: block;
+  margin-bottom: 1rem;
+}
+.form__social-icon {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  margin-right: 1rem;
+  padding: 0.5rem;
+  background-color: var(--text-color);
+  color: #fff;
+  font-size: 1.25rem;
+  border-radius: 50%;
+}
+.form__social-icon:hover {
+  background-color: var(--color-secondary);
+  text-decoration: none;
+  color: #fff;
+}

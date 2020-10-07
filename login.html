@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Página de login</title>
+        <!--CSS-->
+        <link rel="stylesheet" href="assets/css/all.css">
+        <!--Plugins-->
+        <link rel="stylesheet"
+            href="assets/plugins/bootstrap-4.4.1-dist/css/bootstrap.min.css">
+        <link rel="text/javascript"
+            href="assets/plugins/jquery/jquery-3.3.1.min.js">
+        <!-- ===== BOX ICONS ===== -->
+        <link
+            href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css'
+            rel='stylesheet'>
+    </head>
+    <body>
+        <div class="login">
+            <div class="shape"></div>
+            <div class="banner-login">
+                <img src="./assets/images/banner__login.svg" alt="Banner da tela
+                    de login">
+            </div>
+            <div class="login-form">
+                <div class="login-form-wrapper">
+                    <div class="login-title">
+                        <h2>Login</h2>
+                        <a href="register.html">Inscreva-se</a>
+                    </div>
+                    <form action="" class="form-signin" method="POST"
+                        id="login-form">
+                        <div class="form-group">
+                            <label for="userName">Usuário</label>
+                            <input type="text" name="userName" id="userName"
+                                class="form-control" placeholder="Nome usuário">
+                        </div>
+                        <div class="form-group">
+                            <label for="pass">Senha</label>
+                            <input type="password" name="pass" id="pass"
+                                class="form-control"
+                                placeholder="Digite a sua senha">
+                        </div>
+                        <p>
+                            <a href="reset-pass.html">Esqueceu a senha?</a>
+                        </p>
+                        <button type="submit" name="btn-login"
+                            class="btn-login">
+                            Login
+                        </button>
+                        <div class="form__social">
+                            <span class="form__social-text">Ou faça login com</span>
+                            <a href="#" class="form__social-icon"><i class='bx
+                                    bxl-facebook'></i></a>
+                            <a href="#" class="form__social-icon"><i class='bx
+                                    bxl-google'></i></a>
+                            <a href="#" class="form__social-icon"><i class='bx
+                                    bxl-instagram'></i></a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <script src="assets/plugins/bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>
+    </body>
+</html>

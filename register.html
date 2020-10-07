@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html class="no-js" lang="pt-br"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Página registro</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/all.css">
+    <link rel="stylesheet"
+      href="assets/plugins/bootstrap-4.4.1-dist/css/bootstrap.min.css">
+    <link rel="text/javascript"
+      href="assets/plugins/jquery/jquery-3.3.1.min.js">
+    <!-- ===== BOX ICONS ===== -->
+    <link
+      href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css'
+      rel='stylesheet'>
+
+  </head>
+  <body>
+    <div class="registro">
+      <div class="form-registro">
+        <div class="title-registro">
+          <h2>
+            CADASTRE-SE
+          </h2>
+        </div>
+        <form class="form-signin" method="POST">
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="nome_registro">Nome Completo</label>
+              <input type="text" name="nome_registro" id="nome_registro"
+                class="form-control"
+                aria-describedby="nomeHelp" placeholder="Nome..." required
+                autocomplete="off">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="email_registro">Email</label>
+              <input type="email" name="email_registro" id="email_registro"
+                class="form-control"
+                aria-describedby="emailHelp" placeholder="Email..."
+                value="" required autocomplete="off">
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="telefone_registro">Telefone</label>
+              <input type="text" name="telefone_registro"
+                id="telefone_registro" class="form-control"
+                aria-describedby="emailHelp" placeholder="(00) 00000-0000"
+                value="" onkeypress="$(this).mask('(00) 00000-0009')"
+                required autocomplete="off">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="usuario_registro">Usuário</label>
+              <input type="text" name="usuario_registro" id="usuario_registro"
+                class="form-control"
+                aria-describedby="emailHelp" placeholder="Usuário"
+                value="" required autocomplete="off">
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="senha_registro">Senha</label>
+              <input type="password" name="senha_registro" id="senha_registro"
+                class="form-control"
+                placeholder="Digite sua senha" required autocomplete="off">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="senha_registro">Digite sua senha novamente</label>
+              <input type="password" name="senha_registro" id="senha_registro"
+                class="form-control"
+                placeholder="Repetir a senha" required autocomplete="off">
+            </div>
+          </div>
+
+          <button type="submit" class="btn" name="btn-signup"> CADASTRAR</button>
+          <div class="form__social">
+            <span class="form__social-text">Ou cadastre-se com</span>
+            <a href="#" class="form__social-icon"><i class='bx
+                bxl-facebook'></i></a>
+            <a href="#" class="form__social-icon"><i class='bx
+                bxl-google'></i></a>
+            <a href="#" class="form__social-icon"><i class='bx
+                bxl-instagram'></i></a>
+          </div>
+          <p><a href="login.html">Já tenho cadastro!</a></p>
+        </form>
+      </div>
+    </div>
+    <script src="plugins/bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
